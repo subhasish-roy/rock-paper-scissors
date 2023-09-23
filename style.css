@@ -1,0 +1,98 @@
+body{    
+    background-color:hsl(54, 47%, 88%);    
+    font-family:"Arial",sans-serif;    
+    margin:0;    
+    padding:0;
+}
+
+#game_name{
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    font-size: 3em;
+    text-align: center;
+    margin-top: 50px;
+}
+#direction{
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    font-size: 1.5em;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.choices{
+    text-align: center;
+    margin-top: 20px;
+
+}
+
+
+
+
+#rock{
+    background-color:hsl(197, 33%, 92%);
+    font-size: 4rem;
+    margin: 0px 10px;
+    border-radius: 45%;
+}
+#paper{
+    background-color:hsl(197, 33%, 92%);
+    font-size: 4rem;
+    margin: 0px 10px;
+    border-radius: 45%;
+}
+#scissors{
+    background-color:hsl(197, 33%, 92%);
+    font-size: 4rem;
+    margin: 0px 10px;
+    border-radius: 45%;
+}
+
+.score_board{
+    text-align: center;
+    margin-top: 25px;
+    font-weight: bold;
+    font-size: 25px;
+    color: rgb(22, 21, 21);
+    margin-bottom: 50px;
+    
+}
+
+.result{
+    color: rgb(14, 14, 14);
+    font-weight: bold;
+    font-size: 1.9em;
+    text-align: center;
+    margin-top: 40px;
+}
+
+#user_score{
+    color:rgb(53, 114, 201);
+    text-align: center;
+    margin-top: 25px;
+    font-weight: bold;
+    font-size: 25px;
+}
+#comp_score{
+    color: rgb(221, 10, 10);
+    text-align: center;
+    margin-top: 25px;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.green_glow{
+    border: 4px solid rgb(27, 234, 27);
+    box-shadow: 0 0 10px rgb(16, 126, 16);
+}
+
+.red_glow{
+    border: 4px solid rgb(245, 65, 48);
+    box-shadow: 0 0 10px rgb(215, 7, 7);
+}
+
+.grey_glow{
+    border: 4px solid rgb(104, 101, 105);
+    box-shadow: 0 0 10px rgb(87, 94, 87);
+}
