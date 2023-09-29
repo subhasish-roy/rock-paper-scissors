@@ -1,5 +1,5 @@
 body{    
-    background-color:hsl(54, 47%, 88%);    
+    background-color:rgb(117, 117, 198);    
     font-family:"Arial",sans-serif;    
     margin:0;    
     padding:0;
@@ -12,6 +12,7 @@ body{
     text-align: center;
     margin-top: 50px;
 }
+
 #direction{
     color: rgb(0, 0, 0);
     font-weight: bold;
@@ -24,29 +25,40 @@ body{
 .choices{
     text-align: center;
     margin-top: 20px;
-
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    
 }
 
 
 
 
 #rock{
-    background-color:hsl(197, 33%, 92%);
+    background-color:hsl(194, 86%, 67%);
     font-size: 4rem;
     margin: 0px 10px;
-    border-radius: 45%;
+    border-radius: 55%;
+    margin: 0px 10px;
+    
+
 }
 #paper{
-    background-color:hsl(197, 33%, 92%);
+    background-color:hsl(114, 68%, 51%);
     font-size: 4rem;
     margin: 0px 10px;
-    border-radius: 45%;
+    border-radius: 55%;
+    
+    
+
 }
 #scissors{
-    background-color:hsl(197, 33%, 92%);
+    background-color:hsl(0, 98%, 59%);
     font-size: 4rem;
     margin: 0px 10px;
-    border-radius: 45%;
+    border-radius: 55%;
+    margin: 0px 10px;
+    
 }
 
 .score_board{
@@ -65,34 +77,21 @@ body{
     font-size: 1.9em;
     text-align: center;
     margin-top: 40px;
+
 }
 
 #user_score{
-    color:rgb(53, 114, 201);
+    color:rgb(8, 247, 44);
     text-align: center;
     margin-top: 25px;
     font-weight: bold;
     font-size: 25px;
 }
 #comp_score{
-    color: rgb(221, 10, 10);
+    color: rgb(165, 29, 29);
     text-align: center;
     margin-top: 25px;
     font-weight: bold;
     font-size: 25px;
 }
 
-.green_glow{
-    border: 4px solid rgb(27, 234, 27);
-    box-shadow: 0 0 10px rgb(16, 126, 16);
-}
-
-.red_glow{
-    border: 4px solid rgb(245, 65, 48);
-    box-shadow: 0 0 10px rgb(215, 7, 7);
-}
-
-.grey_glow{
-    border: 4px solid rgb(104, 101, 105);
-    box-shadow: 0 0 10px rgb(87, 94, 87);
-}
