@@ -25,8 +25,7 @@ function win(userChoice, compChoice){
     userScore_span.innerHTML = userScore;
     compScore_span.innerHTML = compScore;
     result_p.innerHTML = `${convertToWord(userChoice)} beats ${convertToWord(compChoice)}. You WIN! :)`;
-    document.getElementById(userChoice).classList.add('green_glow');
-    setTimeout(function(){ document.getElementById(userChoice).classList.remove('green_glow')},200)
+
 }
 
 
@@ -35,13 +34,11 @@ function lose(userChoice,compChoice){
     userScore_span.innerHTML = userScore;
     compScore_span.innerHTML = compScore;
     result_p.innerHTML = `${convertToWord(userChoice)} loses to ${convertToWord(compChoice)}. You LOST! :(`;
-    document.getElementById(userChoice).classList.add('red_glow');
-    setTimeout(function(){ document.getElementById(userChoice).classList.remove('red_glow')},200)
+
 }
 function tie(userChoice,compChoice){
     result_p.innerHTML = `${convertToWord(userChoice)} equals ${convertToWord(compChoice)}. IT'S a DRAW!`;
-    document.getElementById(userChoice).classList.add('grey_glow');
-    setTimeout(function(){ document.getElementById(userChoice).classList.remove('grey_glow')},200)
+
 }
 
 function game(userChoice){
